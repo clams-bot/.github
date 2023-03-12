@@ -14,5 +14,4 @@ jobs:
         with:
           route: PATCH /repos/${{ github.repository }}/issues/${{ github.event.issue.number }}
           assignees: '[]'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_CLAMSBOT_TOKEN }}
+          token: ${{ secrets.CLAMSBOT_PAT }}
