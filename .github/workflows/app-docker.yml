@@ -1,5 +1,4 @@
 name: 🐳 Build and publish a Docker image
-
 on:
   workflow_call:
 
